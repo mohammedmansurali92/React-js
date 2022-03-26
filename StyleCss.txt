@@ -1,0 +1,32 @@
+//index.html file
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+
+    <title>React App</title>
+  </head>
+  <body>
+   
+    <div id="root"></div>
+    <script src="../src/index.js"></script>
+  </body>
+</html>
+style.css file
+.headingStyle{
+
+   color:white,
+   background-color:purple,
+  text-align: center,
+    padding:15px
+}
+.largeText{
+    font-size: 3rem;
+}
