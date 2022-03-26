@@ -30,3 +30,26 @@ style.css file
 .largeText{
     font-size: 3rem;
 }
+index.js file
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css'
+const toDoTitle= "Call Family";
+const toDoDesC="Gubergren eos consetetur tempor et vero gubergren sed justo elitr..";
+const toDoDate= "09/03/2022";
+const headingStyle = {
+backgroundColor: "purple",
+color:"white",
+textAlign: "center",
+padding:"15px",
+fontSize: "3rem"
+};
+ReactDOM.render(
+ <div>
+ <h1 className="headingStyle largeFont" >Todo App</h1>
+ <h3>{toDoTitle}</h3>
+ <p>{toDoDesC}</p>
+ <li>{toDoDate}</li>
+ </div>,
+  document.getElementById('root')
+);
