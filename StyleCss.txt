@@ -53,3 +53,14 @@ ReactDOM.render(
  </div>,
   document.getElementById('root')
 );
+//index.css file
+.headingStyle{
+
+     color:white,
+     background-color:purple,
+     text-align: center,
+     padding:15px
+  }
+  .largeText{
+      font-size: 3rem;
+  }
